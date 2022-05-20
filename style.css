@@ -252,7 +252,7 @@ body {
     cursor: pointer;
     background-color: rgb(114, 110, 103);
   }
-  #txt {
+  #time {
     color: white;
     display: flex;
     flex-direction: row;
