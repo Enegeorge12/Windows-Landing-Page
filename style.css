@@ -1,0 +1,260 @@
+body {
+    box-sizing: border-box;
+  }
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background-color: rgb(44, 40, 40);
+  }
+  Handle ::-webkit-scrollbar-thumb {
+    background-color: rgb(44, 40, 40);
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(99, 95, 95);
+  }
+  .container {
+    background-color: rgb(44, 40, 40);
+    width: 600px;
+    height: 600px;
+    display: none;
+    /* border: 1px solid red; */
+    margin-top: 100px;
+  }
+
+  .margin {
+    width: 50px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .icon1 {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px;
+  }
+  .icon2 {
+    flex-direction: column;
+    justify-content: flex-end;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+  }
+  .left {
+    width: 300px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+  }
+  .right {
+    display: grid;
+    /* border: 1px solid red; */
+  }
+  .grid1 {
+    color: white;
+    width: 290px;
+    height: 250px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas:
+      "item1 item2 item3 "
+      "item4 item5 item6";
+    padding: 10px;
+    gap: 10px;
+  }
+
+  .grid2 {
+    color: white;
+    width: 290px;
+    height: 250px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas:
+      "item1 item2 item3"
+      "item4 item5 item6";
+    padding: 10px;
+    gap: 10px;
+  }
+
+  .list {
+    display: flex;
+    color: white;
+    flex-direction: column;
+  }
+
+  .item1 {
+    background-color: rgb(73, 72, 72);
+    background-size: 80px 80px;
+    background-repeat: no-repeat;
+
+    background-position: center;
+    background-image: url("https://img.icons8.com/fluency/344/microsoft-office-2019.png");
+  }
+  .item2 {
+    background-size: 80px 80px;
+    background-repeat: no-repeat;
+    background-color: rgb(73, 72, 72);
+    background-position: center;
+    background-image: url("https://img.icons8.com/color/344/skype--v4.png");
+  }
+  .item3 {
+    background-size: 80px 80px;
+    background-repeat: no-repeat;
+    background-color: rgb(73, 72, 72);
+    background-position: center;
+    background-image: url("https://img.icons8.com/fluency/344/mail.png");
+  }
+  .item4 {
+    background-image: url("https://img.icons8.com/color/344/ms-edge-new.png");
+    background-size: 80px 80px;
+    background-repeat: no-repeat;
+    background-color: rgb(73, 72, 72);
+    background-position: center;
+  }
+  .item5 {
+    display: grid;
+    background-size: 80px 80px;
+    background-repeat: no-repeat;
+    background-color: rgb(73, 72, 72);
+    background-position: center;
+    background-image: url("https://img.icons8.com/fluency/344/image.png");
+  }
+  .item6 {
+    display: grig;
+    background-image: url("https://img.icons8.com/color/344/microsoft-to-do-app.png");
+    background-size: 80px 80px;
+    background-repeat: no-repeat;
+    background-color: rgb(73, 72, 72);
+    background-position: center;
+  }
+  .item1_1 {
+    background-size: 80px 80px;
+    background-repeat: no-repeat;
+    background-color: rgb(73, 72, 72);
+    background-position: center;
+    background-image: url("https://img.icons8.com/office/344/spotify.png");
+  }
+  .item2_1 {
+    background-size: 80px 80px;
+    background-repeat: no-repeat;
+    background-color: rgb(73, 72, 72);
+    background-position: center;
+    background-image: url("https://img.icons8.com/office/344/microsoft-power-automate-2020.png");
+  }
+  .item3_1 {
+    background-size: 80px 80px;
+    background-repeat: no-repeat;
+    background-color: rgb(73, 72, 72);
+    background-position: center;
+    background-image: url("https://img.icons8.com/office/344/instagram-new.png");
+  }
+  .item4_1 {
+    background-size: 80px 80px;
+    background-repeat: no-repeat;
+    background-color: rgb(73, 72, 72);
+    background-position: center;
+    background-image: url("https://img.icons8.com/office/344/news.png");
+  }
+  .item5_1 {
+    background-size: 80px 80px;
+    background-repeat: no-repeat;
+    background-color: rgb(73, 72, 72);
+    background-position: center;
+    background-image: url("https://img.icons8.com/office/344/instagram-new.png");
+  }
+  .item6_1 {
+    background-size: 80px 80px;
+    background-repeat: no-repeat;
+    background-color: rgb(73, 72, 72);
+    background-position: center;
+    background-image: url("https://img.icons8.com/office/344/news.png");
+  }
+
+  p {
+    margin: 5px;
+    color: white;
+  }
+  ul li {
+    display: block;
+  }
+
+  ul li img {
+    vertical-align: middle;
+  }
+  li:hover {
+    background-color: rgb(114, 110, 103);
+    cursor: pointer;
+  }
+  .icon2 img:hover {
+    background-color: rgb(114, 110, 103);
+    cursor: pointer;
+  }
+  .cursor {
+    cursor: pointer;
+  }
+  .item:hover {
+    border: 1px solid white;
+  }
+
+  body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("https://wallpapercave.com/wp/wp5462430.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+  }
+  .desktop {
+    /* border: 1px solid red; */
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  .desktop h1 {
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+  }
+  .bar_ {
+    width: 100%;
+    background-color: rgb(55, 52, 52);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .child_left {
+    /* border: 1px solid red; */
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-items: center;
+  }
+  .child_right {
+    margin-right: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+  .windows_icon:hover {
+    cursor: pointer;
+    background-color: rgb(114, 110, 103);
+  }
+  #txt {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
