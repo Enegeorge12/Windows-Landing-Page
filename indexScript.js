@@ -7,7 +7,8 @@
       // console.log("inchis");
     } else {
       windows.style.display = "flex";
-      // console.log("deschis");
+
+   
     }
   }
   // time clock
