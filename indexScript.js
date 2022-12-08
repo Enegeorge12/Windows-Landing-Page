@@ -2,11 +2,11 @@
  function activeWindows() {
     // let activeWindows = document.getElementById("windowsIcon");
     let windows = document.querySelector(".container");
-    if (windows.style.display === "none") {
-      windows.style.display = "flex";
+    if (windows.style.display === "flex") {
+      windows.style.display = "none";
       // console.log("inchis");
     } else {
-      windows.style.display = "none";
+      windows.style.display = "flex";
       // console.log("deschis");
     }
   }
